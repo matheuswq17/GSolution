@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    color: #1e1c2e;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(61, 42, 144);
+}
+
+#login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.name input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #1e1c2e;
+    color: #b6b6b6;
+    margin-bottom: 15px;
+}
+
+.email input {
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding-right: 5px;
+    padding: 10px 8px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 96%;
+    outline: none;
+    
+}
+
+.senha input {
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 9px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 67%; 
+    outline: none;
+}
+
+
+input::placeholder {
+    color: #b6b6b6;
+}
+
+h1 {
+    color: A#141414;
+}
+
+.caixa{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 300px;
+}
+.caixa img {
+    width: 215px;
+    padding-left: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.entrar input {
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #2E3440;
+    color: #fff;
+}
+
+.container {
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    grid-template-columns: 12rem auto 23rem;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 668px;
+    max-width: 100%;
+    place-items: center;
+    /* Ajuste para centralizar verticalmente */
+    align-items: center;
+}
+
+}
+

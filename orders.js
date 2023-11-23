@@ -2,7 +2,7 @@ const Orders = [
     {
         productName: 'Dipirona ',
         productNumber: '3297',
-        paymentStatus: 'Due',
+        paymentStatus: 'devendo',
         status: 'Pendente'
     },
     {

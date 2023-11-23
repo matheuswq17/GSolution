@@ -1,0 +1,22 @@
+.user-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.user-button img {
+    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+.user-button h2 {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+.user-button p {
+    margin: 2px 0;
+    font-size: 0.9em;
+    color: #888;
+}
+
