@@ -1,21 +1,27 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="historico.css">
+    <link rel="stylesheet" href="../login/login.html">
     <script src="scripts/index.js"></script>
+    <script src="tudo.js"></script>
     <script src="scripts/orders.js"></script>
-    <link rel="stylesheet" href="calendario.css">
-    <script src="calendario.js" defer></script>
-    <title>Calendário</title>
-  </head>
-  <body>
+    <script src="historico.js"></script>
+    <script src="historicos.js"></script>
+    <title>CareTech Hub</title>
+</head>
+
+
+<body>
+
     <div class="container">
         <!-- Sidebar Section -->
         <aside>
-            
             <div class="toggle">
                 <div class="logo">
                     <img src="../images/logo.png">
@@ -40,7 +46,7 @@
                     </span> 
                     <h3>Contatos</h3>
                 </a>
-                <a href="../historico/historico.html">
+                <a href="#">
                     <span class="material-icons-sharp">
                         receipt_long
                     </span>
@@ -79,45 +85,26 @@
                 </a>
             </div>
         </aside>
-    <div class="contianer">
-      <div class="calendar">
-        <div class="calendar-header">
-          <span class="month-picker" id="month-picker"> May </span>
-          <div class="year-picker" id="year-picker">
-            <span class="year-change" id="pre-year">
-              <pre><</pre>
-            </span>
-            <span id="year">2020 </span>
-            <span class="year-change" id="next-year">
-              <pre>></pre>
-            </span>
-          </div>
-        </div>
- 
-        <div class="calendar-body">
-          <div class="calendar-week-days">
-            <div>Dom</div>
-            <div>seg</div>
-            <div>Ter</div>
-            <div>Qua</div>
-            <div>Qui</div>
-            <div>Sex</div>
-            <div>Sab</div>
-          </div>
-          <div class="calendar-days">
-          </div>
-        </div>
-        <div class="calendar-footer">
-        </div>
-        <div class="date-time-formate">
-          <div class="day-text-formate">HOJE</div>
-          <div class="date-time-value">
-            <div class="time-formate">02:51:20</div>
-            <div class="date-formate">23 - julho - 2023</div>
-          </div>
-        </div>
-        <div class="month-list"></div>
-      </div>
-    </div>
-  </body>
+        <main>
+            <div class="recent-orders">
+                <h2>Pedidos Recentes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome Do Remédio</th>
+                            <th>Código do pedido</th>
+                            <th>Data do pagamaento</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="historico.html">Mostrar menos</a>
+            </div>
+            <script src="tudo.js"></script>
+            <script src="historicos.js"></script>
+        </main>    
+    </body>
+    
 </html>
